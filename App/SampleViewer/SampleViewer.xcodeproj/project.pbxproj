@@ -119,6 +119,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B538FF012CBBB819006ACBC0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				B5DBB43B2CBB8F9800A9A410 /* SampleViewer */,
@@ -142,6 +143,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B538FF032CBBBB63006ACBC0 /* PBXTargetDependency */,
 				B5DBB44B2CBB8F9A00A9A410 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
@@ -165,6 +167,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B538FF052CBBBB66006ACBC0 /* PBXTargetDependency */,
 				B5DBB4552CBB8F9A00A9A410 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
@@ -209,6 +212,9 @@
 			);
 			mainGroup = B5DBB4302CBB8F9800A9A410;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B538FEFF2CBBB812006ACBC0 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B5DBB43A2CBB8F9800A9A410 /* Products */;
 			projectDirPath = "";
@@ -270,6 +276,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B538FF012CBBB819006ACBC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = B538FF002CBBB819006ACBC0 /* SwiftLintBuildToolPlugin */;
+		};
+		B538FF032CBBBB63006ACBC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = B538FF022CBBBB63006ACBC0 /* SwiftLintBuildToolPlugin */;
+		};
+		B538FF052CBBBB66006ACBC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = B538FF042CBBBB66006ACBC0 /* SwiftLintBuildToolPlugin */;
+		};
 		B5DBB44B2CBB8F9A00A9A410 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B5DBB4382CBB8F9800A9A410 /* SampleViewer */;
@@ -573,7 +591,33 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		B538FEFF2CBBB812006ACBC0 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.57.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		B538FF002CBBB819006ACBC0 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B538FEFF2CBBB812006ACBC0 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+		B538FF022CBBBB63006ACBC0 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B538FEFF2CBBB812006ACBC0 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+		B538FF042CBBBB66006ACBC0 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B538FEFF2CBBB812006ACBC0 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
 		B5F5A5FE2CBB99A60034F015 /* SampleLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SampleLibrary;
