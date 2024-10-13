@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:App/SampleViewer/SampleViewer.xcodeproj">
+      location = "group:SampleViewer.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:">
