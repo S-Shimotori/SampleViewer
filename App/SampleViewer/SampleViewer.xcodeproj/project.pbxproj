@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B5F5A5FF2CBB99A60034F015 /* SampleLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = B5F5A5FE2CBB99A60034F015 /* SampleLibrary */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B5DBB44A2CBB8F9A00A9A410 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5F5A5FF2CBB99A60034F015 /* SampleLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				B5DBB43B2CBB8F9800A9A410 /* SampleViewer */,
 				B5DBB44C2CBB8F9A00A9A410 /* SampleViewerTests */,
 				B5DBB4562CBB8F9A00A9A410 /* SampleViewerUITests */,
+				B5F5A5FD2CBB99A60034F015 /* Frameworks */,
 				B5DBB43A2CBB8F9800A9A410 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,13 @@
 				B5DBB4532CBB8F9A00A9A410 /* SampleViewerUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F5A5FD2CBB99A60034F015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +125,7 @@
 			);
 			name = SampleViewer;
 			packageProductDependencies = (
+				B5F5A5FE2CBB99A60034F015 /* SampleLibrary */,
 			);
 			productName = SampleViewer;
 			productReference = B5DBB4392CBB8F9800A9A410 /* SampleViewer.app */;
@@ -558,6 +572,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5F5A5FE2CBB99A60034F015 /* SampleLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SampleLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B5DBB4312CBB8F9800A9A410 /* Project object */;
 }
