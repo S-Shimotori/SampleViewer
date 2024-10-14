@@ -1,0 +1,12 @@
+name: test
+on:
+  pull_request:
+    branches: [main]
+jobs:
+  build:
+    runs-on: macOS-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: test
+        run: xcodebuild test -testPlan SampleViewer -scheme SampleViewer -destination 'platform=iOS Simulator,name=iPhone 16 Pro Max'
+
