@@ -5,6 +5,6 @@
       location = "group:SampleViewer.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:">
+      location = "group:Package/">
    </FileRef>
 </Workspace>

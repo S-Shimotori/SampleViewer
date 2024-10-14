@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5F5A5FF2CBB99A60034F015 /* SampleLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = B5F5A5FE2CBB99A60034F015 /* SampleLibrary */; };
+		B5D10F902CBBCCCF007C807F /* SampleLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = B5D10F8F2CBBCCCF007C807F /* SampleLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5F5A5FF2CBB99A60034F015 /* SampleLibrary in Frameworks */,
+				B5D10F902CBBCCCF007C807F /* SampleLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +126,7 @@
 			);
 			name = SampleViewer;
 			packageProductDependencies = (
-				B5F5A5FE2CBB99A60034F015 /* SampleLibrary */,
+				B5D10F8F2CBBCCCF007C807F /* SampleLibrary */,
 			);
 			productName = SampleViewer;
 			productReference = B5DBB4392CBB8F9800A9A410 /* SampleViewer.app */;
@@ -214,6 +214,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				B538FEFF2CBBB812006ACBC0 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+				B5D10F8C2CBBCC5F007C807F /* XCLocalSwiftPackageReference "Package" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B5DBB43A2CBB8F9800A9A410 /* Products */;
@@ -591,6 +592,13 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		B5D10F8C2CBBCC5F007C807F /* XCLocalSwiftPackageReference "Package" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Package;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		B538FEFF2CBBB812006ACBC0 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -618,7 +626,7 @@
 			package = B538FEFF2CBBB812006ACBC0 /* XCRemoteSwiftPackageReference "SwiftLint" */;
 			productName = "plugin:SwiftLintBuildToolPlugin";
 		};
-		B5F5A5FE2CBB99A60034F015 /* SampleLibrary */ = {
+		B5D10F8F2CBBCCCF007C807F /* SampleLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SampleLibrary;
 		};
