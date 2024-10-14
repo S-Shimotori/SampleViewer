@@ -3,7 +3,8 @@ on:
   pull_request:
     branches: [main]
 jobs:
-  build:
+  test:
+    name: test
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v4
