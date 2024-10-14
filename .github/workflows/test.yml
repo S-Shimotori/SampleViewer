@@ -8,6 +8,8 @@ jobs:
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v4
-      - name: test
+      - name: xcode-select
+        run : sudo xcode-select -switch /Applications/Xcode_16.app/Contents/Developer
+      - name: execute
         run: xcodebuild test -testPlan SampleViewer -scheme SampleViewer -destination 'platform=iOS Simulator,name=iPhone 16 Pro Max'
 
