@@ -25,5 +25,10 @@ let package = Package(
         ),
         .target(
             name: "HIGConstants"),
+        .target(
+            name: "Localization"),
+        .testTarget(
+            name: "LocalizationTests",
+            dependencies: ["Localization"]),
     ]
 )
