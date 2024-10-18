@@ -13,6 +13,9 @@ let package = Package(
         .library(
             name: "HIGConstants",
             targets: ["HIGConstants"]),
+        .library(
+            name: "Localization",
+            targets: ["Localization"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.

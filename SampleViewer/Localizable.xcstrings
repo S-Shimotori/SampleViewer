@@ -1,0 +1,57 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "hig.accessibility.controls.size.button.caption" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last tapped"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最後にタップした日時"
+          }
+        }
+      }
+    },
+    "hig.accessibility.controls.size.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On touchscreen devices, a hit target needs to measure at least 44x44 pt."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タッチスクリーンデバイスでは、ヒットターゲットの大きさが44x44ポイント以上である必要があります。"
+          }
+        }
+      }
+    },
+    "hig.accessibility.controls.size.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Size of Hit Target"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヒットターゲットの大きさ"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
