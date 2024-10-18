@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B5D10F902CBBCCCF007C807F /* SampleLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = B5D10F8F2CBBCCCF007C807F /* SampleLibrary */; };
+		B5D226912CC2881500DF5561 /* HIGConstants in Frameworks */ = {isa = PBXBuildFile; productRef = B5D226902CC2881500DF5561 /* HIGConstants */; };
+		B5D226932CC2881500DF5561 /* Localization in Frameworks */ = {isa = PBXBuildFile; productRef = B5D226922CC2881500DF5561 /* Localization */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5D10F902CBBCCCF007C807F /* SampleLibrary in Frameworks */,
+				B5D226912CC2881500DF5561 /* HIGConstants in Frameworks */,
+				B5D226932CC2881500DF5561 /* Localization in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +131,8 @@
 			name = SampleViewer;
 			packageProductDependencies = (
 				B5D10F8F2CBBCCCF007C807F /* SampleLibrary */,
+				B5D226902CC2881500DF5561 /* HIGConstants */,
+				B5D226922CC2881500DF5561 /* Localization */,
 			);
 			productName = SampleViewer;
 			productReference = B5DBB4392CBB8F9800A9A410 /* SampleViewer.app */;
@@ -361,6 +367,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -417,6 +424,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -629,6 +637,16 @@
 		B5D10F8F2CBBCCCF007C807F /* SampleLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SampleLibrary;
+		};
+		B5D226902CC2881500DF5561 /* HIGConstants */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5D10F8C2CBBCC5F007C807F /* XCLocalSwiftPackageReference "Package" */;
+			productName = HIGConstants;
+		};
+		B5D226922CC2881500DF5561 /* Localization */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5D10F8C2CBBCC5F007C807F /* XCLocalSwiftPackageReference "Package" */;
+			productName = Localization;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
