@@ -10,6 +10,9 @@ let package = Package(
         .library(
             name: "SampleLibrary",
             targets: ["SampleLibrary"]),
+        .library(
+            name: "HIGConstants",
+            targets: ["HIGConstants"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -20,5 +23,12 @@ let package = Package(
             name: "SampleLibraryTests",
             dependencies: ["SampleLibrary"]
         ),
+        .target(
+            name: "HIGConstants"),
+        .target(
+            name: "Localization"),
+        .testTarget(
+            name: "LocalizationTests",
+            dependencies: ["Localization"]),
     ]
 )
