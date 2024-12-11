@@ -1,6 +1,74 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "hig.accessibility.controls.configuration.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can use the visually prominent filled style for the button that performs the most likely action in a view, using less prominent styles — such as gray or plain — for buttons that perform less important actions."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ビューで頻繁に実行されるアクションのボタンに塗りつぶしスタイルを適用して目立たせ、重要性の低いアクションのボタンには目立たないグレイや標準のスタイルを適用できます。"
+          }
+        }
+      }
+    },
+    "hig.accessibility.controls.configuration.section.swiftui" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftUI"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftUI"
+          }
+        }
+      }
+    },
+    "hig.accessibility.controls.configuration.section.uikit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UIKit"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UIKit"
+          }
+        }
+      }
+    },
+    "hig.accessibility.controls.configuration.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relative Importance of Buttons"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボタンの相対的重要性"
+          }
+        }
+      }
+    },
     "hig.accessibility.controls.size.button.caption" : {
       "extractionState" : "manual",
       "localizations" : {
