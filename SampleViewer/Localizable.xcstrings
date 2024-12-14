@@ -154,6 +154,108 @@
         }
       }
     },
+    "hig.accessibility.grouped.artichokes.accessibility" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A large container holding many green artichokes."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "たくさんの緑のアーティチョークが入っている大きな容器。"
+          }
+        }
+      }
+    },
+    "hig.accessibility.grouped.artichokes.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Artichokes come from a variety of a species of thistle."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーティチョークはさまざまなアザミから取れます。"
+          }
+        }
+      }
+    },
+    "hig.accessibility.grouped.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Examine your app for places where relationships among elements are visual only, and describe these relationships to VoiceOver."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要素間の関係が視覚のみで提示されている箇所がないかアプリを検査し、そうした箇所があれば、その関係性の説明をVoiceOverに提供してください。"
+          }
+        }
+      }
+    },
+    "hig.accessibility.grouped.mangoes.accessibility" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A large container holding a variety of mangoes."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いろいろなマンゴーが入っている大きな容器。"
+          }
+        }
+      }
+    },
+    "hig.accessibility.grouped.mangoes.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mangoes come from trees that belong to the genus Mangifera."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マンゴーはマンゴー属の木から取れます。"
+          }
+        }
+      }
+    },
+    "hig.accessibility.grouped.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Improve the VoiceOver Experience"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOverの操作性を改善"
+          }
+        }
+      }
+    },
     "sample.description" : {
       "extractionState" : "manual",
       "localizations" : {
