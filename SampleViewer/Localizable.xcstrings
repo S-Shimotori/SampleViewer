@@ -409,6 +409,40 @@
         }
       }
     },
+    "hig.materials.ios.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The following materials are available:"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "以下のマテリアルを使用できます:"
+          }
+        }
+      }
+    },
+    "hig.materials.ios.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materials"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マテリアル"
+          }
+        }
+      }
+    },
     "sample.description" : {
       "extractionState" : "manual",
       "localizations" : {
