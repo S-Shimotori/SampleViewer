@@ -273,6 +273,74 @@
         }
       }
     },
+    "hig.dark-mode.colors.dark.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System colors in the dark appearance"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダークな外観でのシステムカラー"
+          }
+        }
+      }
+    },
+    "hig.dark-mode.colors.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semantic colors (like labelColor and controlColor in macOS or separator in iOS and iPadOS) automatically adapt to the current appearance."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "セマンティックカラー（macOSのlabelColorやcontrolColor、iOSとiPadOSのseparatorなど）は、自動的に現在の外観に適応します。"
+          }
+        }
+      }
+    },
+    "hig.dark-mode.colors.light.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System colors in the light appearance"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライトな外観でのシステムカラー"
+          }
+        }
+      }
+    },
+    "hig.dark-mode.colors.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colors"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カラー"
+          }
+        }
+      }
+    },
     "sample.description" : {
       "extractionState" : "manual",
       "localizations" : {
