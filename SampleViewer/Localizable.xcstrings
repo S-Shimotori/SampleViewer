@@ -443,6 +443,125 @@
         }
       }
     },
+    "hig.materials.ios.vibrancy.defaultLabel.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Default label on regular material"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "regularマテリアルでのデフォルトラベル"
+          }
+        }
+      }
+    },
+    "hig.materials.ios.vibrancy.label.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Except for quaternary, you can use the following vibrancy values for labels on any material. In general, avoid using quaternary on top of the thin and ultraThin materials, because the contrast is too low."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4段階目のquaternaryLabelを除き、あらゆるマテリアルのラベルには次のバイブランス値を使用できます。一般的に、thinおよびultraThinの上では、コントラストが低すぎるため、4段階目の使用は避けてください。"
+          }
+        }
+      }
+    },
+    "hig.materials.ios.vibrancy.quaternaryLabel.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quaternary label on regular material"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "regularマテリアルでの第4ラベル"
+          }
+        }
+      }
+    },
+    "hig.materials.ios.vibrancy.secondaryLabel.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Secondary label on regular material"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "regularマテリアルでの第2ラベル"
+          }
+        }
+      }
+    },
+    "hig.materials.ios.vibrancy.separator.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Labels and fills both have several levels of vibrancy; separators have one level."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラベルと塗りつぶしにはどちらも複数のレベルのバイブランスがありますが、区切りには1つのレベルしかありません。"
+          }
+        }
+      }
+    },
+    "hig.materials.ios.vibrancy.tertiaryLabel.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tertiary label on regular material"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "regularマテリアルでの第3ラベル"
+          }
+        }
+      }
+    },
+    "hig.materials.ios.vibrancy.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vibrancy"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バイブランス"
+          }
+        }
+      }
+    },
     "sample.description" : {
       "extractionState" : "manual",
       "localizations" : {
