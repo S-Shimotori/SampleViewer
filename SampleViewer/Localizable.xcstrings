@@ -562,6 +562,91 @@
         }
       }
     },
+    "hig.right-to-left.number-system.ar_AE.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arabic, United Arab Emirates"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アラビア語、アラブ首長国連邦"
+          }
+        }
+      }
+    },
+    "hig.right-to-left.number-system.ar_SA.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arabic, Saudi Arabia"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アラビア語、サウジアラビア"
+          }
+        }
+      }
+    },
+    "hig.right-to-left.number-system.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The use of Western and Eastern Arabic numerals varies among countries and regions and even among areas within the same country or region."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "西アラビア数字とインド数字のどちらが使用されるかは、国や地域によって、さらには同じ国や地域内の場所によって異なります。"
+          }
+        }
+      }
+    },
+    "hig.right-to-left.number-system.en_US.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English, U.S.A."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英語、米国"
+          }
+        }
+      }
+    },
+    "hig.right-to-left.number-system.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Number System"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記数法"
+          }
+        }
+      }
+    },
     "sample.description" : {
       "extractionState" : "manual",
       "localizations" : {
