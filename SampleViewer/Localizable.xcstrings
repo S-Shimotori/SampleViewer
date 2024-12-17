@@ -647,6 +647,74 @@
         }
       }
     },
+    "hig.right-to-left.rating.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controls like progress bars, sliders, and rating controls often include numerals to clarify their meaning. If you use numerals in this way, be sure to reverse the order of the numerals to match the direction of the flipped control. Also reverse a sequence of numerals if you use the sequence to communicate a specific order."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進行状況バー、スライダ、評価コントロールなどのコントロールには、意味を明瞭にするために数字が含まれることがよくあります。数字をこのように使用する場合は、反転したコントロールの向きに合わせて必ず数字を逆順にしてください。また、数字のシーケンスを使って特定の順序を伝える場合は、シーケンスを逆順にします。"
+          }
+        }
+      }
+    },
+    "hig.right-to-left.rating.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Numerals that show progress or a counting direction"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進行状況またはカウントの方向を示す数字"
+          }
+        }
+      }
+    },
+    "locale.he_IL" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hebrew, Israel"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヘブライ語、イスラエル"
+          }
+        }
+      }
+    },
+    "locale.ja_JP" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Japanese, Japan"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日本語、日本"
+          }
+        }
+      }
+    },
     "sample.description" : {
       "extractionState" : "manual",
       "localizations" : {
