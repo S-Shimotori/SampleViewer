@@ -5,17 +5,17 @@ struct NumberSystemView: View {
         LocaleConfiguration(
             id: UUID(),
             locale: .enUS,
-            description: "hig.right-to-left.number-system.en_US.title"
+            description: "locale.en_US"
         ),
         LocaleConfiguration(
             id: UUID(),
             locale: .arSA,
-            description: "hig.right-to-left.number-system.ar_SA.title"
+            description: "locale.ar_SA"
         ),
         LocaleConfiguration(
             id: UUID(),
             locale: .arAE,
-            description: "hig.right-to-left.number-system.ar_AE.title"
+            description: "locale.ar_AE"
         ),
     ]
 

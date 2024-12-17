@@ -562,40 +562,6 @@
         }
       }
     },
-    "hig.right-to-left.number-system.ar_AE.title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Arabic, United Arab Emirates"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "アラビア語、アラブ首長国連邦"
-          }
-        }
-      }
-    },
-    "hig.right-to-left.number-system.ar_SA.title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Arabic, Saudi Arabia"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "アラビア語、サウジアラビア"
-          }
-        }
-      }
-    },
     "hig.right-to-left.number-system.description" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -613,23 +579,6 @@
         }
       }
     },
-    "hig.right-to-left.number-system.en_US.title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "English, U.S.A."
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "英語、米国"
-          }
-        }
-      }
-    },
     "hig.right-to-left.number-system.title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -643,6 +592,57 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "記数法"
+          }
+        }
+      }
+    },
+    "locale.ar_AE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arabic, United Arab Emirates"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アラビア語、アラブ首長国連邦"
+          }
+        }
+      }
+    },
+    "locale.ar_SA" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arabic, Saudi Arabia"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アラビア語、サウジアラビア"
+          }
+        }
+      }
+    },
+    "locale.en_US" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English, U.S.A."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英語、米国"
           }
         }
       }
