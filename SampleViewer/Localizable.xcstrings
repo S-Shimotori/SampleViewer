@@ -562,6 +562,40 @@
         }
       }
     },
+    "hig.right-to-left.font-size.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In buttons, labels, and titles, Arabic or Hebrew text can appear too small when next to uppercased Latin text, because Arabic and Hebrew don’t include uppercase letters. To visually balance Arabic or Hebrew text with Latin text that uses all capitals, it often works well to increase the RTL font size by about 2 points."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボタン、ラベル、タイトルでは、アラビア文字またはヘブライ文字のテキストを大文字ラテン文字の横に配置すると、小さすぎるように見えることがあります。アラビア文字とヘブライ文字には大文字が含まれないからです。アラビア文字またはヘブライ文字のテキストとすべて大文字のラテン文字のテキストとの視覚的なバランスを取るには、多くの場合RTLのフォントサイズを2ポイントほど大きくするとうまくいきます。"
+          }
+        }
+      }
+    },
+    "hig.right-to-left.font-size.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RTL font size"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RTLのフォントサイズ"
+          }
+        }
+      }
+    },
     "hig.right-to-left.number-system.description" : {
       "extractionState" : "manual",
       "localizations" : {
