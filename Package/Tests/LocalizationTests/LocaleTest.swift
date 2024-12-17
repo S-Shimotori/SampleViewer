@@ -8,6 +8,9 @@ struct LocaleTest {
         let locales: [Locale] = [
             .jaJP,
             .enUS,
+            .arAE,
+            .arSA,
+            .heIL,
         ]
         #expect(locales.allSatisfy { Locale.availableIdentifiers.contains($0.identifier) })
     }
