@@ -4,18 +4,18 @@ struct NumberSystemView: View {
     private var localeConfigurations = [
         LocaleConfiguration(
             id: UUID(),
-            locale: "en_US",
-            description: "hig.right-to-left.number-system.en_US.title"
+            locale: .enUS,
+            description: "locale.en_US"
         ),
         LocaleConfiguration(
             id: UUID(),
-            locale: "ar_SA",
-            description: "hig.right-to-left.number-system.ar_SA.title"
+            locale: .arSA,
+            description: "locale.ar_SA"
         ),
         LocaleConfiguration(
             id: UUID(),
-            locale: "ar_AE",
-            description: "hig.right-to-left.number-system.ar_AE.title"
+            locale: .arAE,
+            description: "locale.ar_AE"
         ),
     ]
 
@@ -37,7 +37,7 @@ struct NumberSystemView: View {
                     Text(date, format: Date.FormatStyle(date: .numeric, time: .omitted))
                         .padding()
                 }
-                .environment(\.locale, .init(identifier: localeConfiguration.locale))
+                .environment(\.locale, localeConfiguration.locale)
             }
         }
         .padding()
@@ -48,7 +48,7 @@ struct NumberSystemView: View {
 
 private struct LocaleConfiguration: Identifiable {
     var id: UUID
-    var locale: String
+    var locale: Locale
     var description: LocalizedStringKey
 }
 
