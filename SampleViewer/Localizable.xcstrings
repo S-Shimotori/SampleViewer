@@ -953,6 +953,40 @@
         }
       }
     },
+    "hig.sf-symbols.variant.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SF Symbols defines several design variants — such as fill, slash, and enclosed — that can help you communicate precise states and actions while maintaining visual consistency and simplicity in your UI."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SF Symbolsでは、塗りつぶし、スラッシュ、囲みなどの複数のデザインバリアントが定義されています。これによって、UI内で視覚的な一貫性とシンプルさを保ちつつ、状態やアクションを正確に伝えることができます。"
+          }
+        }
+      }
+    },
+    "hig.sf-symbols.variant.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Design variants"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デザインバリアント"
+          }
+        }
+      }
+    },
     "hig.sf-symbols.weight-and-scale.description" : {
       "extractionState" : "manual",
       "localizations" : {
