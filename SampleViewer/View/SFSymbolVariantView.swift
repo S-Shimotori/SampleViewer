@@ -1,5 +1,6 @@
 import SwiftUI
 
+// TODO: Add icons to navigation bar and tab bar
 struct SFSymbolVariantView: View {
     var body: some View {
         VStack {
