@@ -664,6 +664,108 @@
         }
       }
     },
+    "hig.sf-symbols.rendering.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SF Symbols provides four rendering modes — monochrome, hierarchical, palette, and multicolor — that give you multiple options when applying color to symbols."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SF Symbolsには、モノクロ、階層、パレット、マルチカラーの4つのレンダリングモードがあります。"
+          }
+        }
+      }
+    },
+    "hig.sf-symbols.rendering.hierarchical.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hierarchical"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "階層"
+          }
+        }
+      }
+    },
+    "hig.sf-symbols.rendering.monochrome.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monochrome"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "モノクロ"
+          }
+        }
+      }
+    },
+    "hig.sf-symbols.rendering.multicolor.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Multicolor"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マルチカラー"
+          }
+        }
+      }
+    },
+    "hig.sf-symbols.rendering.palette.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palette"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パレット"
+          }
+        }
+      }
+    },
+    "hig.sf-symbols.rendering.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rendering modes"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レンダリングモード"
+          }
+        }
+      }
+    },
     "hig.right-to-left.interface.localized.title" : {
       "extractionState" : "manual",
       "localizations" : {
