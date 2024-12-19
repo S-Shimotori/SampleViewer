@@ -11,6 +11,10 @@ struct LocaleTest {
             .arAE,
             .arSA,
             .heIL,
+            .hiIN,
+            .thTH,
+            .zhCN,
+            .koKR,
         ]
         #expect(locales.allSatisfy { Locale.availableIdentifiers.contains($0.identifier) })
     }

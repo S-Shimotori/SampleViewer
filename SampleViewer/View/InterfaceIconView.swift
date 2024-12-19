@@ -33,115 +33,125 @@ struct InterfaceIconView: View {
     ]
 
     var body: some View {
-        VStack {
-            Text("hig.right-to-left.interface.title")
-                .font(.title)
+        NavigationStack {
             Text("hig.right-to-left.interface.description")
                 .font(.body)
+            .padding()
+            ScrollView {
+                Section("hig.right-to-left.interface.directional.title") {
+                    ForEach(layoutDirectionContexts) { layoutDirectionContexts in
+                        GroupBox {
+                            HStack {
+                                Image(systemName: "list.bullet")
+                                    .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
+                                Image(systemName: "book.closed")
+                                    .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
+                                Image(systemName: "rectangle.and.pencil.and.ellipsis")
+                                    .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
+                                Image(systemName: "macwindow")
+                                    .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
+                                Image(systemName: "battery.25percent")
+                                    .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
+                            }
+                        } label: {
+                            Text(layoutDirectionContexts.description)
+                        }
+                    }
+                }
+
+                Section("hig.right-to-left.interface.text.title") {
+                    ForEach(layoutDirectionContexts) { layoutDirectionContexts in
+                        GroupBox {
+                            HStack {
+                                Image(systemName: "text.page")
+                                    .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
+                            }
+                        } label: {
+                            Text(layoutDirectionContexts.description)
+                        }
+                    }
+                }
+
+                Section("hig.right-to-left.interface.localized.title") {
+                    ForEach(localeContexts) { localeContext in
+                        GroupBox {
+                            HStack {
+                                Image(systemName: "signature")
+                                Image(systemName: "richtext.page")
+                                Image(systemName: "character.cursor.ibeam")
+                            }
+                            .environment(\.locale, localeContext.locale)
+                        } label: {
+                            Text(localeContext.description)
+                        }
+                    }
+
+                    NavigationLink(
+                        destination: LanguageSpecificSFSymbolView()
+                    ) {
+                        Text("button.seemore")
+                            .frame(maxWidth: .infinity, minHeight: 40)
+                    }
+                }
+
+                Section("hig.right-to-left.interface.motion.title") {
+                    ForEach(layoutDirectionContexts) { layoutDirectionContexts in
+                        GroupBox {
+                            HStack {
+                                Image(systemName: "speaker.wave.3.fill")
+                                    .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
+                            }
+                        } label: {
+                            Text(layoutDirectionContexts.description)
+                        }
+                    }
+                }
+
+                Section("hig.right-to-left.interface.backslash.title") {
+                    ForEach(layoutDirectionContexts) { layoutDirectionContexts in
+                        GroupBox {
+                            HStack {
+                                Image(systemName: "speaker.slash.fill")
+                                    .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
+                            }
+                        } label: {
+                            Text(layoutDirectionContexts.description)
+                        }
+                    }
+                }
+
+                Section("hig.right-to-left.interface.component.title") {
+                    ForEach(layoutDirectionContexts) { layoutDirectionContexts in
+                        GroupBox {
+                            HStack {
+                                Image(systemName: "cart.fill.badge.plus")
+                                    .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
+                            }
+                        } label: {
+                            Text(layoutDirectionContexts.description)
+                        }
+                    }
+                }
+
+                Section("hig.right-to-left.interface.tool.title") {
+                    ForEach(layoutDirectionContexts) { layoutDirectionContexts in
+                        GroupBox {
+                            HStack {
+                                Image(systemName: "mail.and.text.magnifyingglass")
+                                    .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
+                            }
+                        } label: {
+                            Text(layoutDirectionContexts.description)
+                        }
+                    }
+                }
+            }
+            .padding()
+            .navigationBarTitle(
+                "hig.right-to-left.interface.title",
+                displayMode: .inline
+            )
         }
-        .padding()
-        ScrollView {
-            Section("hig.right-to-left.interface.directional.title") {
-                ForEach(layoutDirectionContexts) { layoutDirectionContexts in
-                    GroupBox {
-                        HStack {
-                            Image(systemName: "list.bullet")
-                                .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
-                            Image(systemName: "book.closed")
-                                .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
-                            Image(systemName: "rectangle.and.pencil.and.ellipsis")
-                                .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
-                            Image(systemName: "macwindow")
-                                .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
-                            Image(systemName: "battery.25percent")
-                                .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
-                        }
-                    } label: {
-                        Text(layoutDirectionContexts.description)
-                    }
-                }
-            }
-
-            Section("hig.right-to-left.interface.text.title") {
-                ForEach(layoutDirectionContexts) { layoutDirectionContexts in
-                    GroupBox {
-                        HStack {
-                            Image(systemName: "text.page")
-                                .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
-                        }
-                    } label: {
-                        Text(layoutDirectionContexts.description)
-                    }
-                }
-            }
-
-            Section("hig.right-to-left.interface.localized.title") {
-                ForEach(localeContexts) { localeContext in
-                    GroupBox {
-                        HStack {
-                            Image(systemName: "signature")
-                            Image(systemName: "richtext.page")
-                            Image(systemName: "character.cursor.ibeam")
-                        }
-                        .environment(\.locale, localeContext.locale)
-                    } label: {
-                        Text(localeContext.description)
-                    }
-                }
-            }
-
-            Section("hig.right-to-left.interface.motion.title") {
-                ForEach(layoutDirectionContexts) { layoutDirectionContexts in
-                    GroupBox {
-                        HStack {
-                            Image(systemName: "speaker.wave.3.fill")
-                                .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
-                        }
-                    } label: {
-                        Text(layoutDirectionContexts.description)
-                    }
-                }
-            }
-
-            Section("hig.right-to-left.interface.backslash.title") {
-                ForEach(layoutDirectionContexts) { layoutDirectionContexts in
-                    GroupBox {
-                        HStack {
-                            Image(systemName: "speaker.slash.fill")
-                                .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
-                        }
-                    } label: {
-                        Text(layoutDirectionContexts.description)
-                    }
-                }
-            }
-
-            Section("hig.right-to-left.interface.component.title") {
-                ForEach(layoutDirectionContexts) { layoutDirectionContexts in
-                    GroupBox {
-                        HStack {
-                            Image(systemName: "cart.fill.badge.plus")
-                                .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
-                        }
-                    } label: {
-                        Text(layoutDirectionContexts.description)
-                    }
-                }
-            }
-
-            Section("hig.right-to-left.interface.tool.title") {
-                ForEach(layoutDirectionContexts) { layoutDirectionContexts in
-                    GroupBox {
-                        HStack {
-                            Image(systemName: "mail.and.text.magnifyingglass")
-                                .environment(\.layoutDirection, layoutDirectionContexts.layoutDirection)
-                        }
-                    } label: {
-                        Text(layoutDirectionContexts.description)
-                    }
-                }
-            }
-        }.padding()
     }
 }
 

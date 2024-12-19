@@ -1,6 +1,23 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "button.seemore" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "See more"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "もっと見る"
+          }
+        }
+      }
+    },
     "hig.accessibility.controls.configuration.description" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -970,6 +987,40 @@
         }
       }
     },
+    "hig.sf-symbols.variant.language-specific.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SF Symbols provides many variants for specific languages and writing systems, including Latin, Arabic, Hebrew, Hindi, Thai, Chinese, Japanese, Korean, Cyrillic, Devanagari, and several Indic numeral systems."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SF Symbolsには、ラテン文字、アラビア語、ヘブライ語、ヒンディー語、タイ語、中国語、日本語、韓国語、キリル文字、デーバナーガリー数字や、複数のインド数字など、特定の言語や表記法向けのバリアントが多数用意されています。"
+          }
+        }
+      }
+    },
+    "hig.sf-symbols.variant.language-specific.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language- and script-specific variants"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "言語および文字固有のバリアント"
+          }
+        }
+      }
+    },
     "hig.sf-symbols.variant.title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1123,6 +1174,23 @@
         }
       }
     },
+    "locale.hi_IN" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hindi, India"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヒンズー語、インド"
+          }
+        }
+      }
+    },
     "locale.ja_JP" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1136,6 +1204,57 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "日本語、日本"
+          }
+        }
+      }
+    },
+    "locale.ko_KR" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korean, Korea"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "韓国語、韓国"
+          }
+        }
+      }
+    },
+    "locale.th_TH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thai, Thailand"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイ語、タイ"
+          }
+        }
+      }
+    },
+    "locale.zh_CN" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simplified Chinese, China"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "簡体字中国語、中国"
           }
         }
       }
