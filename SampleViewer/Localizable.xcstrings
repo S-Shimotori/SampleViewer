@@ -1531,6 +1531,40 @@
         }
       }
     },
+    "hig.typography.leading.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can also use symbolic traits to adjust leading if you need to improve readability or conserve space. For example, when you display text in wide columns or long passages, more space between lines (loose leading) can make it easier for people to keep their place while moving from one line to the next. Conversely, if you need to display multiple lines of text in an area where height is constrained — for example, in a list row — decreasing the space between lines (tight leading) can help the text fit well. If you need to display three or more lines of text, avoid tight leading even in areas where height is limited."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シンボル特性を使って、読みやすさを向上させたりスペースを節約したりする必要がある場合にレディングを調整することもできます。例えば、幅の広い列または長い一節にテキストを表示する場合、行の間隔を広げると（ゆるいレディング）、ユーザがある行から次の行に進むときに自分がどこを読んでいるかが分かりやすくなります。逆に、高さに制限のある領域（リストの行など）に複数のテキスト行を表示する必要がある場合は、行の間隔を狭くすると（きついレディング）、テキストをうまく収めることができます。3行以上のテキストを表示する必要がある場合は、高さに制限がある領域であってもレディングをきつくしないでください。"
+          }
+        }
+      }
+    },
+    "hig.typography.leading.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leading"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レディング"
+          }
+        }
+      }
+    },
     "hig.typography.size.description" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1561,6 +1595,57 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "フォントサイズ"
+          }
+        }
+      }
+    },
+    "leading.loose" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loose leading"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゆるいレディング"
+          }
+        }
+      }
+    },
+    "leading.standard" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standard"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "標準"
+          }
+        }
+      }
+    },
+    "leading.tight" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tight leading"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "きついレディング"
           }
         }
       }
