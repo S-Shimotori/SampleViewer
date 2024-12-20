@@ -1344,6 +1344,40 @@
         }
       }
     },
+    "hig.typography.size.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use font sizes that most people can read easily. For example, aim to use the minimum font size of 11 pt in iOS and iPadOS, 10 pt in macOS, 23 pt in tvOS, and 12 pt in visionOS and watchOS. It’s important to recognize that differences in device displays, including pixel density and brightness, in addition to other factors — such as ambient lighting, the reader’s proximity to the text, their visual acuity, and whether they’re in motion — can all impact legibility."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ほとんどの人が簡単に読めるフォントサイズを使用する。例えば、最小フォントサイズとしてiOSとiPadOSでは11 ptを、macOSでは10 ptを、tvOSでは23 ptを、visionOSとwatchOSでは12 ptを使用してください。ピクセル密度や輝度といったデバイスごとのディスプレイの違いに加えて、その他の要因（周囲の照明条件、読み手とテキストの近さ、読み手の視力、読み手が動いているかどうかなど）がすべて読みやすさに影響すると認識することが大切です。"
+          }
+        }
+      }
+    },
+    "hig.typography.size.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Font size"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フォントサイズ"
+          }
+        }
+      }
+    },
     "locale.ar_AE" : {
       "extractionState" : "manual",
       "localizations" : {
