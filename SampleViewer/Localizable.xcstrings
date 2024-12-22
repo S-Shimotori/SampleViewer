@@ -443,6 +443,108 @@
         }
       }
     },
+    "hig.charting-data.descriptive.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can also display brief descriptive text that serves as a headline or summary for a chart, helping people grasp essential information at a glance."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ユーザが不可欠な情報を一目で把握できるように、グラフの見出しや概要の役割を果たす簡潔な説明文を追加することもできます。"
+          }
+        }
+      }
+    },
+    "hig.charting-data.descriptive.forecast.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear conditions expected around 18:00. Wind gusts up to 14 m/s are making the temperature feel like 4°."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "18:00頃に快晴の予想です。最大風速14m/sの風の影響で、体感温度は4°Cです。"
+          }
+        }
+      }
+    },
+    "hig.charting-data.descriptive.now.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Now"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在"
+          }
+        }
+      }
+    },
+    "hig.charting-data.descriptive.sunrise.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sunrise"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日の出"
+          }
+        }
+      }
+    },
+    "hig.charting-data.descriptive.sunset.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sunset"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日の入"
+          }
+        }
+      }
+    },
+    "hig.charting-data.descriptive.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descriptive text"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "説明となる文字列"
+          }
+        }
+      }
+    },
     "hig.dark-mode.colors.dark.title" : {
       "extractionState" : "manual",
       "localizations" : {
