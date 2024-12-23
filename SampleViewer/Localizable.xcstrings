@@ -545,6 +545,123 @@
         }
       }
     },
+    "hig.charting-data.trend.chart.accessibility.value" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trend diagram"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "トレンドの図表"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend.chart.step.description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Step"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "歩数"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend.chart.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steps"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "歩数"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend.chart.week.description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Week"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "週"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When you use multiple charts to help people explore one dataset from different perspectives, it’s important to use one chart type and consistent colors, annotations, layouts, and descriptive text to signal that the dataset remains the same."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ユーザが1つのデータセットをさまざまな視点から探索できるように複数のグラフを用意する場合、グラフの種類を1つに限定し、一貫した色、注釈、レイアウト、説明となるテキストを使用して、同じデータセットを一貫して対象にしているという視覚効果を保つのは大切です。"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend.summary.description%lld%lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Over the last %lld weeks, you averaged %lld steps per day."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "平均して、あなたの過去%lld週間の1日あたりの歩数は%lld歩でした。"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuity among multiple charts"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同じデータを使用する複数のグラフ間の一貫性"
+          }
+        }
+      }
+    },
     "hig.dark-mode.colors.dark.title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2054,6 +2171,76 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "タイトル"
+          }
+        }
+      }
+    },
+    "unit.steps%lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld step"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld steps"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld歩"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "unit.weeks%lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld week"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld weeks"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld週間"
+                }
+              }
+            }
           }
         }
       }
