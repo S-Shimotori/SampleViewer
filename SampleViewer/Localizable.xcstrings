@@ -545,6 +545,227 @@
         }
       }
     },
+    "hig.charting-data.trend-detail.chart.scale.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scale"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スケール"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend-detail.chart.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DAILY AVERAGE"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1日の平均"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend-detail.domain.description%@%@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ – %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@〜%@"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend-detail.segmented.daily.accessibility.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Day"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend-detail.segmented.daily.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "D"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend-detail.segmented.half-yearly.accessibility.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 months"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "六か月"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend-detail.segmented.half-yearly.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6 M"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6ヶ月"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend-detail.segmented.monthly.accessibility.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Month"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend-detail.segmented.monthly.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "M"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend-detail.segmented.weekly.accessibility.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Week"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "週"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend-detail.segmented.weekly.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "週"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend-detail.segmented.yearly.accessibility.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Year"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "年"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend-detail.segmented.yearly.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Y"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "年"
+          }
+        }
+      }
+    },
     "hig.charting-data.trend.chart.accessibility.value" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -558,6 +779,38 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "トレンドの図表"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend.chart.bar.accessibility.label%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@。"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend.chart.bar.accessibility.value%lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steps. Daily average. %lld steps."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "歩数。1日の平均。%lld歩。"
           }
         }
       }
@@ -2171,6 +2424,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "タイトル"
+          }
+        }
+      }
+    },
+    "unit.steps" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " steps"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "歩"
           }
         }
       }
