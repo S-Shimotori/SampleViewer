@@ -596,6 +596,23 @@
         }
       }
     },
+    "hig.charting-data.trend-detail.navigation.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steps"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "歩数"
+          }
+        }
+      }
+    },
     "hig.charting-data.trend-detail.segmented.daily.accessibility.label" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -877,6 +894,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ユーザが1つのデータセットをさまざまな視点から探索できるように複数のグラフを用意する場合、グラフの種類を1つに限定し、一貫した色、注釈、レイアウト、説明となるテキストを使用して、同じデータセットを一貫して対象にしているという視覚効果を保つのは大切です。"
+          }
+        }
+      }
+    },
+    "hig.charting-data.trend.navigation.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trends"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "トレンド"
           }
         }
       }
