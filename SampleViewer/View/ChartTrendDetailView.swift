@@ -60,7 +60,6 @@ struct ChartTrendDetailView: View {
                 Picker("hig.charting-data.trend-detail.chart.scale.description", selection: $scale) {
                     ForEach(Scale.allCases) {
                         Text($0.localizedString)
-                            // FIXME: Enable accessibility label
                             .accessibilityLabel(Text($0.accessibilityLocalizedString))
                     }
                 }
