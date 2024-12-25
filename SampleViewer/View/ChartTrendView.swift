@@ -48,7 +48,6 @@ struct ChartTrendView: View {
         let averageOfSteps =
             steps.isEmpty ? 0 : steps.reduce(0) { $0 + $1.numberOfSteps } / steps.count
 
-        // TODO: Set background color to entire view
         NavigationStack {
             VStack {
                 Text("hig.charting-data.trend.title")
@@ -118,6 +117,7 @@ struct ChartTrendView: View {
             .padding()
             .navigationTitle("hig.charting-data.trend.navigation.title")
             .navigationBarTitleDisplayMode(.inline)
+            .background(Color("hig.charting-data.trend.background"))
         }
     }
 }
