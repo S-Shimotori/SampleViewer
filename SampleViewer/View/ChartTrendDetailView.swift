@@ -65,7 +65,6 @@ struct ChartTrendDetailView: View {
                 }
                 .pickerStyle(.segmented)
 
-                // FIXME: Accessibility area
                 VStack(alignment: .leading) {
                     Text("hig.charting-data.trend-detail.chart.title")
                         .foregroundStyle(Color.gray)
@@ -79,6 +78,8 @@ struct ChartTrendDetailView: View {
                         .foregroundStyle(Color.gray)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
+                // workaround: To expand accessibility hit range
+                .background(Color("hig.charting-data.trend-detail.background"))
                 // FIXME: Remove "てん" from text in ja_JP
                 .accessibilityElement(children: .combine)
 
