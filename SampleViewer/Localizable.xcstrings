@@ -949,6 +949,40 @@
         }
       }
     },
+    "hig.collaboration-and-sharing.link.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In your SwiftUI app, you can also enable sharing by presenting a share link that opens the system-provided share sheet when people choose it."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftUIアプリでは、選択時にシステム定義の共有シートが開く共有リンクを提示して、共有に対応することもできます。"
+          }
+        }
+      }
+    },
+    "hig.collaboration-and-sharing.link.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share link"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "共有リンク"
+          }
+        }
+      }
+    },
     "hig.dark-mode.colors.dark.title" : {
       "extractionState" : "manual",
       "localizations" : {
