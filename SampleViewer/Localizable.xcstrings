@@ -1119,6 +1119,74 @@
         }
       }
     },
+    "hig.drag-and-drop.accessibility.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sometimes, drag-and-drop operations are inconvenient or impossible for people to perform, so it’s important to provide other ways to do the same things. For example, you can include menu commands that people can use to copy an item and move it to another location."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "状況によっては、ドラッグ＆ドロップ操作がかえってユーザにとって不便だったり不可能だったりします。同じ処理を実行できる別の方法を提供することは重要です。例えば、項目をコピーして別の場所に移動できるメニューコマンドを用意できます。"
+          }
+        }
+      }
+    },
+    "hig.drag-and-drop.accessibility.drop.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drop here."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ここにドロップする。"
+          }
+        }
+      }
+    },
+    "hig.drag-and-drop.accessibility.field.placeholder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This is a draggable text field."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ドラッグ可能なテキストフィールド。"
+          }
+        }
+      }
+    },
+    "hig.drag-and-drop.accessibility.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alternative ways to accomplish drag-and-drop actions"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ドラッグ＆ドロップと同じ処理を実行できる代替手段"
+          }
+        }
+      }
+    },
     "hig.materials.ios.description" : {
       "extractionState" : "manual",
       "localizations" : {
