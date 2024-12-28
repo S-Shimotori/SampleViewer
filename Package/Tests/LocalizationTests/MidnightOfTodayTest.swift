@@ -10,12 +10,11 @@ struct MidnightOfTodayTest {
         )
     )
     func japan(baseUNIXTime: TimeInterval, expectedUNIXTime: TimeInterval) async throws {
-        let actualDate = midnightOfToday(
-            Date(timeIntervalSince1970: baseUNIXTime),
-            calendarIdentifier: .gregorian,
-            timeZone: TimeZone.tokyo,
-            locale: Locale.jaJP
-        )
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.locale = .jaJP
+        calendar.timeZone = .tokyo
+
+        let actualDate = calendar.midnightOfToday(from: Date(timeIntervalSince1970: baseUNIXTime))
         let expectedDate = Date(timeIntervalSince1970: expectedUNIXTime)
         #expect(actualDate == expectedDate)
     }
@@ -27,12 +26,11 @@ struct MidnightOfTodayTest {
         )
     )
     func westCoastOfUS(baseUNIXTime: TimeInterval, expectedUNIXTime: TimeInterval) async throws {
-        let actualDate = midnightOfToday(
-            Date(timeIntervalSince1970: baseUNIXTime),
-            calendarIdentifier: .gregorian,
-            timeZone: TimeZone.losAngeles,
-            locale: Locale.enUS
-        )
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.locale = .enUS
+        calendar.timeZone = .losAngeles
+
+        let actualDate = calendar.midnightOfToday(from: Date(timeIntervalSince1970: baseUNIXTime))
         let expectedDate = Date(timeIntervalSince1970: expectedUNIXTime)
         #expect(actualDate == expectedDate)
     }
