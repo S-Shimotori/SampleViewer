@@ -2,7 +2,7 @@ import Foundation
 import Testing
 @testable import Localization
 
-struct MidnightOfTodayTest {
+struct MidnightTest {
     @Test(
         arguments: zip(
             [1735657200/*2025-01-01T00:00:00+09:00*/, 1735698153/*2025-01-01T11:22:33+09:00*/],
@@ -14,7 +14,7 @@ struct MidnightOfTodayTest {
         calendar.locale = .jaJP
         calendar.timeZone = .tokyo
 
-        let actualDate = calendar.midnightOfToday(from: Date(timeIntervalSince1970: baseUNIXTime))
+        let actualDate = calendar.midnight(from: Date(timeIntervalSince1970: baseUNIXTime))
         let expectedDate = Date(timeIntervalSince1970: expectedUNIXTime)
         #expect(actualDate == expectedDate)
     }
@@ -30,7 +30,7 @@ struct MidnightOfTodayTest {
         calendar.locale = .enUS
         calendar.timeZone = .losAngeles
 
-        let actualDate = calendar.midnightOfToday(from: Date(timeIntervalSince1970: baseUNIXTime))
+        let actualDate = calendar.midnight(from: Date(timeIntervalSince1970: baseUNIXTime))
         let expectedDate = Date(timeIntervalSince1970: expectedUNIXTime)
         #expect(actualDate == expectedDate)
     }
