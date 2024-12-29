@@ -3,7 +3,7 @@ import Foundation
 extension Calendar {
     /// Midnight of today.
     /// - Returns: A new `Date`, or `nil` if fails to calculate.
-    public func midnightOfToday(
+    public func midnight(
         from date: Date
     ) -> Date? {
         return self.date(from: dateComponents([.year, .month, .day], from: date))
@@ -26,7 +26,7 @@ extension Calendar {
     public func midnightOfFirstDayOfThisWeek(
         from date: Date
     ) -> Date? {
-        var candidateDate = self.midnightOfToday(from: date)
+        var candidateDate = self.midnight(from: date)
 
         while true {
             guard let midnight = candidateDate else {
