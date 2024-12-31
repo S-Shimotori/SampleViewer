@@ -1595,6 +1595,57 @@
         }
       }
     },
+    "hig.right-to-left.paragraph.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To improve readability, continue aligning one- and two-line text blocks to match the reading direction of the current context, but align a paragraph to match its language."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読みやすくするため、1行または2行のテキストブロックは引き続き現在のコンテキストでの読む方向に合わせて配置しますが、段落の場合はその言語に合わせて配置します。"
+          }
+        }
+      }
+    },
+    "hig.right-to-left.paragraph.section.uikit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UIKit"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UIKit"
+          }
+        }
+      }
+    },
+    "hig.right-to-left.paragraph.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alignment of a paragraph"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "段落の配置"
+          }
+        }
+      }
+    },
     "hig.right-to-left.rating.description" : {
       "extractionState" : "manual",
       "localizations" : {
