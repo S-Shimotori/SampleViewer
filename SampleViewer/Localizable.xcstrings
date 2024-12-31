@@ -1119,6 +1119,105 @@
         }
       }
     },
+    "hig.dark-mode.system.base.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Base"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ベース"
+          }
+        }
+      }
+    },
+    "hig.dark-mode.system.button.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開く"
+          }
+        }
+      }
+    },
+    "hig.dark-mode.system.description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dark Mode is dynamic, which means that the background color automatically changes from base to elevated when an interface is in the foreground, such as a popover or modal sheet. The system also uses the elevated background color to provide visual separation between apps in a multitasking environment and between windows in a multiple-window context."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダークモードはダイナミックです。つまり、ポップオーバーやモーダルシートなどのようにインターフェイスがフォアグラウンドにある場合には、バックグラウンドカラーがベースから高階調に自動的に変化します。また、マルチタスク環境のアプリを視覚的に区別したり、複数ウインドウ環境でウインドウを区別したりする場合にも、高階調のバックグラウンドカラーが使用されます。"
+          }
+        }
+      }
+    },
+    "hig.dark-mode.system.elevated.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elevated"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高階調"
+          }
+        }
+      }
+    },
+    "hig.dark-mode.system.light.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Light"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライト"
+          }
+        }
+      }
+    },
+    "hig.dark-mode.system.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System background colors"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "システムのバックグラウンドカラー"
+          }
+        }
+      }
+    },
     "hig.drag-and-drop.accessibility.description" : {
       "extractionState" : "manual",
       "localizations" : {
