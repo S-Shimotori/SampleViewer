@@ -11,6 +11,8 @@ struct FontSizeView: View {
         .padding()
 
         VStack {
+            Text("hig.typography.size.largeTitle.description")
+                .font(.largeTitle)
             Text("hig.typography.size.title.description")
                 .font(.title)
             Text("hig.typography.size.title2.description")

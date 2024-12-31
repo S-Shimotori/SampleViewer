@@ -2442,6 +2442,23 @@
         }
       }
     },
+    "hig.typography.size.largeTitle.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Large Title"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大きなタイトル"
+          }
+        }
+      }
+    },
     "hig.typography.size.subheadline.description" : {
       "extractionState" : "manual",
       "localizations" : {
