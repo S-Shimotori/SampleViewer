@@ -1286,6 +1286,40 @@
         }
       }
     },
+    "hig.drag-and-drop.image.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It works well to create a translucent representation of the content people are dragging. Translucency helps distinguish the representation from the original content and lets people see destinations as they pass over them. Display the drag image until people drop the content."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ユーザがドラッグしているコンテンツを表す半透明の画像を作成すると効果的です。半透明の画像なので元のコンテンツと容易に区別でき、ドラッグ先がそれに隠れて見えなくなることもありません。ドラッグ画像はユーザがコンテンツをドロップするまで表示してください。"
+          }
+        }
+      }
+    },
+    "hig.drag-and-drop.image.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A translucent representation of the content"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コンテンツを表す半透明の画像"
+          }
+        }
+      }
+    },
     "hig.materials.ios.description" : {
       "extractionState" : "manual",
       "localizations" : {
