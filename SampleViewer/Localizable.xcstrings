@@ -1320,6 +1320,74 @@
         }
       }
     },
+    "hig.entering-data.data-you-need.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For example, you might display a prompt in a text field — like “username@company.com” — or provide an introductory label that describes the information, like “Email.” You can also prefill fields with reasonable default values, which can minimize decision making and speed data entry."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "例えば、プロンプトのテキストフィールドに「username@company.com」のような文字列を入れたり、「メールアドレス」のように必要な情報をはっきり指定するラベルを表示したりできます。意思決定を最小限にしてデータ入力を高速化するため、妥当なデフォルト値をあらかじめフィールドに入力しておくこともできます。"
+          }
+        }
+      }
+    },
+    "hig.entering-data.data-you-need.email.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メールアドレス"
+          }
+        }
+      }
+    },
+    "hig.entering-data.data-you-need.message.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Message"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メッセージ"
+          }
+        }
+      }
+    },
+    "hig.entering-data.data-you-need.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clarification of data you need"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "必要なデータの明確化"
+          }
+        }
+      }
+    },
     "hig.materials.ios.description" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2812,6 +2880,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "詳細"
+          }
+        }
+      }
+    },
+    "sample.hello-world" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hello, world!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "こんにちは、世界！"
           }
         }
       }
