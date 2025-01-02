@@ -1388,6 +1388,57 @@
         }
       }
     },
+    "hig.entering-data.secure-field.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If your app or game needs sensitive data, use a field that obscures people’s input as they enter it, typically by displaying a small filled circle symbol for each character."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "機密データを必要とするアプリやゲームでは、ユーザの入力内容が表示されないフィールドを使用します（通常、入力文字の代わりに小さい「●」が表示される）。"
+          }
+        }
+      }
+    },
+    "hig.entering-data.secure-field.password.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワード"
+          }
+        }
+      }
+    },
+    "hig.entering-data.secure-field.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A secure text-entry field"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "セキュリティ保護されたテキスト入力フィールド"
+          }
+        }
+      }
+    },
     "hig.materials.ios.description" : {
       "extractionState" : "manual",
       "localizations" : {
