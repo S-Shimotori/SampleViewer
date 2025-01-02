@@ -1320,6 +1320,108 @@
         }
       }
     },
+    "hig.entering-data.choices.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It’s usually easier and more efficient to choose from lists of options than to type information, even when a keyboard is conveniently available. When it makes sense, consider using a picker, menu, or other selection component to give people an easy way to provide the information you need."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キーボードに慣れたユーザでも、通常は、情報をタイプするよりリストから選択する方が簡単で効率も高くなります。状況に応じて、必要な情報をユーザが簡単に提供できる方法として、ピッカー、メニューなどの選択コンポーネントの使用を検討してください。"
+          }
+        }
+      }
+    },
+    "hig.entering-data.choices.picker.chocolate.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chocolate"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "チョコレート"
+          }
+        }
+      }
+    },
+    "hig.entering-data.choices.picker.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flavor"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フレーバー"
+          }
+        }
+      }
+    },
+    "hig.entering-data.choices.picker.strawberry.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strawberry"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ストロベリー"
+          }
+        }
+      }
+    },
+    "hig.entering-data.choices.picker.vanilla.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vanilla"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バニラ"
+          }
+        }
+      }
+    },
+    "hig.entering-data.choices.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choices"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択方式"
+          }
+        }
+      }
+    },
     "hig.entering-data.data-you-need.description" : {
       "extractionState" : "manual",
       "localizations" : {
