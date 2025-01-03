@@ -290,6 +290,40 @@
         }
       }
     },
+    "hig.accessibility.dynamic-type.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dynamic Type lets people pick the font size that works for them. Verify that your design can scale and that both text and glyphs are legible at all font sizes."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dynamic Typeに対応すると、ユーザが好みのフォントサイズを選択できます。デザインを適切に拡大/縮小できるか、テキストとグリフの両方がどのフォントサイズでも判読できるかを検証してください。"
+          }
+        }
+      }
+    },
+    "hig.accessibility.dynamic-type.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dynamic Type"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dynamic Type"
+          }
+        }
+      }
+    },
     "hig.accessibility.gestures.alternative.description" : {
       "extractionState" : "manual",
       "localizations" : {

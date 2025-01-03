@@ -3,7 +3,19 @@ import SwiftUI
 // TODO: Set background color, drop shadow
 // TODO: Set title of back button
 struct DynamicTypeView: View {
+    @Environment(\.dynamicTypeSize)
+    private var dynamicTypeSize
+
     var body: some View {
+        VStack {
+            Text("hig.accessibility.dynamic-type.title")
+                .font(.title)
+            if !dynamicTypeSize.isAccessibilitySize {
+                Text("hig.accessibility.dynamic-type.description")
+                    .font(.body)
+            }
+        }
+        .padding(.horizontal)
         NavigationStack {
             ScrollView {
                 VStack {
