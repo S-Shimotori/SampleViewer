@@ -1541,6 +1541,57 @@
         }
       }
     },
+    "hig.entering-data.validation.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "People can get frustrated when they have to go back and correct mistakes after filling out a lengthy form. When you verify values as soon as people enter them — and provide feedback as soon as you detect a problem — you give them the opportunity to correct errors right away."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "長いフォームに入力したあとで、戻って間違いを修正しなければならないという流れは、ユーザのイライラの原因になります。ユーザが入力した直後にその値を確認し、問題を検出したらすぐにフィードバックを提示するようにすれば、その場で間違いを訂正できます。"
+          }
+        }
+      }
+    },
+    "hig.entering-data.validation.price.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stock price"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "株価"
+          }
+        }
+      }
+    },
+    "hig.entering-data.validation.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dynamically validation"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "動的な検証"
+          }
+        }
+      }
+    },
     "hig.materials.ios.description" : {
       "extractionState" : "manual",
       "localizations" : {
