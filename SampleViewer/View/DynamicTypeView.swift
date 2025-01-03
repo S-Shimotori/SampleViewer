@@ -25,7 +25,7 @@ struct DynamicTypeView: View {
                     .padding(.leading)
                 ScrollView {
                     // TODO: Show a sample message
-                    Text("Hello, World!")
+                    Text(verbatim: "Hello, World!")
                 }
             }
             .background(Color("hig.accessibility.dynamic-type.mail.background"))
