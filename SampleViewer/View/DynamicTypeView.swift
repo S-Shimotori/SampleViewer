@@ -22,6 +22,7 @@ struct DynamicTypeView: View {
                     .padding(.top)
                     .padding(.horizontal)
                 Divider()
+                    .padding(.leading)
                 ScrollView {
                     // TODO: Show a sample message
                     Text("Hello, World!")
