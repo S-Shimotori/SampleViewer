@@ -174,25 +174,27 @@ private struct AccessibleHStack<Content>: View where Content: View {
 
 // MARK: - Xcode Preview
 
-#Preview("DynamicTypeView(locale=enUS)") {
+#Preview("DynamicTypeView(locale=enUS,timeZone=losAngeles)") {
     DynamicTypeView()
         .environment(\.locale, .enUS)
         .environment(\.timeZone, .losAngeles)
 }
 
-#Preview("DynamicTypeView(locale=jaJP)") {
+#Preview("DynamicTypeView(locale=jaJP,timeZone=jaJP)") {
     DynamicTypeView()
         .environment(\.locale, .jaJP)
         .environment(\.timeZone, .tokyo)
 }
 
-#Preview("DynamicTypeView(dynamicTypeSize=xxxLarge)") {
+#Preview("DynamicTypeView(locale=enUS,dynamicTypeSize=xxxLarge)") {
     DynamicTypeView()
+        .environment(\.locale, .enUS)
         .environment(\.dynamicTypeSize, .xxxLarge)
 }
 
-#Preview("DynamicTypeView(dynamicTypeSize=accessibility5)") {
+#Preview("DynamicTypeView(locale=enUS,dynamicTypeSize=accessibility5)") {
     DynamicTypeView()
+        .environment(\.locale, .enUS)
         .environment(\.dynamicTypeSize, .accessibility5)
 }
 
