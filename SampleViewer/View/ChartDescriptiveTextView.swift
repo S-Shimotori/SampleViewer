@@ -124,8 +124,7 @@ struct ChartDescriptiveTextView: View {
         case let .sunny(temperature: temperature),
              let .clearNight(temperature: temperature),
              let .windy(temperature: temperature):
-            // TODO: Use correct temperature unit
-            Text(verbatim: "\(temperature)°")
+            Text("unit.temperature.simplified\(temperature)")
         case .sunrise:
             Text("hig.charting-data.descriptive.sunrise.description")
         case .sunset:

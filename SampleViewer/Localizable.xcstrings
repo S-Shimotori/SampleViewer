@@ -3378,6 +3378,23 @@
         }
       }
     },
+    "unit.temperature.simplified%lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld°"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        }
+      }
+    },
     "unit.weeks%lld" : {
       "extractionState" : "manual",
       "localizations" : {
