@@ -116,7 +116,6 @@ private struct SampleHeaderView: View {
                 Image(systemName: "paperclip")
                     .foregroundStyle(.gray)
             }
-
         }
     }
 }
