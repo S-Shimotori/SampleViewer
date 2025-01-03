@@ -71,9 +71,9 @@ struct ChartDescriptiveTextView: View {
             Image("watercolor")
                 .resizable()
             VStack {
-                // TODO: Configure padding
                 Text("hig.charting-data.descriptive.forecast.description")
                     .padding()
+                    .frame(maxWidth: .infinity, alignment: .leading)
                 Divider()
                     .padding(.leading)
                 ScrollView(.horizontal) {
