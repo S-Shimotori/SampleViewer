@@ -1,6 +1,6 @@
 import SwiftUI
 
-// TODO: Set background color, drop shadow
+// TODO: Set drop shadow
 // TODO: Set title of back button
 struct DynamicTypeView: View {
     @Environment(\.dynamicTypeSize)
@@ -17,15 +17,18 @@ struct DynamicTypeView: View {
         }
         .padding(.horizontal)
         NavigationStack {
-            ScrollView {
-                VStack {
-                    SampleHeaderView()
-                    Divider()
+            VStack {
+                SampleHeaderView()
+                    .padding(.top)
+                    .padding(.horizontal)
+                Divider()
+                    .padding(.leading)
+                ScrollView {
                     // TODO: Show a sample message
-                    Text("Hello, World!")
+                    Text(verbatim: "Hello, World!")
                 }
-                .padding()
             }
+            .background(Color("hig.accessibility.dynamic-type.mail.background"))
             .toolbar {
                 ToolbarItemGroup(placement: .topBarTrailing) {
                     Button {
@@ -59,6 +62,10 @@ struct DynamicTypeView: View {
                     }
                 }
             }
+            .toolbarBackgroundVisibility(.visible, for: .navigationBar)
+            .toolbarBackground(Color(uiColor: UIColor.systemBackground), for: .navigationBar)
+            .toolbarBackgroundVisibility(.visible, for: .bottomBar)
+            .toolbarBackground(Color(uiColor: UIColor.systemBackground), for: .tabBar)
         }
     }
 }
@@ -109,7 +116,6 @@ private struct SampleHeaderView: View {
                 Image(systemName: "paperclip")
                     .foregroundStyle(.gray)
             }
-
         }
     }
 }
@@ -174,26 +180,34 @@ private struct AccessibleHStack<Content>: View where Content: View {
 
 // MARK: - Xcode Preview
 
-#Preview("DynamicTypeView(locale=enUS)") {
+#Preview("DynamicTypeView(locale=enUS,timeZone=losAngeles)") {
     DynamicTypeView()
         .environment(\.locale, .enUS)
         .environment(\.timeZone, .losAngeles)
 }
 
-#Preview("DynamicTypeView(locale=jaJP)") {
+#Preview("DynamicTypeView(locale=jaJP,timeZone=jaJP)") {
     DynamicTypeView()
         .environment(\.locale, .jaJP)
         .environment(\.timeZone, .tokyo)
 }
 
-#Preview("DynamicTypeView(dynamicTypeSize=xxxLarge)") {
+#Preview("DynamicTypeView(locale=enUS,dynamicTypeSize=xxxLarge)") {
     DynamicTypeView()
+        .environment(\.locale, .enUS)
         .environment(\.dynamicTypeSize, .xxxLarge)
 }
 
-#Preview("DynamicTypeView(dynamicTypeSize=accessibility5)") {
+#Preview("DynamicTypeView(locale=enUS,dynamicTypeSize=accessibility5)") {
     DynamicTypeView()
+        .environment(\.locale, .enUS)
         .environment(\.dynamicTypeSize, .accessibility5)
+}
+
+#Preview("DynamicTypeView(locale=enUS,colorScheme=dark)") {
+    DynamicTypeView()
+        .environment(\.locale, .enUS)
+        .environment(\.colorScheme, .dark)
 }
 
 #Preview("SampleHeaderView") {
