@@ -1,6 +1,6 @@
 import SwiftUI
 
-// TODO: Set background color, drop shadow
+// TODO: Set drop shadow
 // TODO: Set title of back button
 struct DynamicTypeView: View {
     @Environment(\.dynamicTypeSize)
@@ -17,15 +17,17 @@ struct DynamicTypeView: View {
         }
         .padding(.horizontal)
         NavigationStack {
-            ScrollView {
-                VStack {
-                    SampleHeaderView()
-                    Divider()
+            VStack {
+                SampleHeaderView()
+                    .padding(.top)
+                    .padding(.horizontal)
+                Divider()
+                ScrollView {
                     // TODO: Show a sample message
                     Text("Hello, World!")
                 }
-                .padding()
             }
+            .background(Color("hig.accessibility.dynamic-type.mail.background"))
             .toolbar {
                 ToolbarItemGroup(placement: .topBarTrailing) {
                     Button {
@@ -59,6 +61,10 @@ struct DynamicTypeView: View {
                     }
                 }
             }
+            .toolbarBackgroundVisibility(.visible, for: .navigationBar)
+            .toolbarBackground(Color(uiColor: UIColor.systemBackground), for: .navigationBar)
+            .toolbarBackgroundVisibility(.visible, for: .bottomBar)
+            .toolbarBackground(Color(uiColor: UIColor.systemBackground), for: .tabBar)
         }
     }
 }
@@ -196,6 +202,12 @@ private struct AccessibleHStack<Content>: View where Content: View {
     DynamicTypeView()
         .environment(\.locale, .enUS)
         .environment(\.dynamicTypeSize, .accessibility5)
+}
+
+#Preview("DynamicTypeView(locale=enUS,colorScheme=dark)") {
+    DynamicTypeView()
+        .environment(\.locale, .enUS)
+        .environment(\.colorScheme, .dark)
 }
 
 #Preview("SampleHeaderView") {
